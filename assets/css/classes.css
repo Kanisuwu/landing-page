@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap');
+
+.main-bg {
+    background-image: url(../imgs/endless-constellation.svg);
+    color: var(--white-color);
+}
+
+.main-bg:nth-child(2n+1) {
+    background-image: none;
+    color: var(--primary-color);
+}
+
+.main-content {
+    max-width: 120rem;
+    margin: var(--menu-gap) auto;
+    padding: 2rem;
+}
+
+.section {
+    display: flex;
+    min-height: 100vh;
+}
